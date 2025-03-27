@@ -13,7 +13,7 @@ const LoginPage = () => {
         <Box className={style.loginPageBox}>
           <div>
             <Heading size="md" py="2">
-              New to Naukri?
+              New to Job Portal?
             </Heading>
 
             <div>

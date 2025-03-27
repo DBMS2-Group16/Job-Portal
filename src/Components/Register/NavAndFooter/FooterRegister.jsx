@@ -24,7 +24,7 @@ const FooterRegister = () => {
 						<span>Privacy Policy</span>
 					</li>
 				</ul>
-        <p>All rights reserved © 2022 Info Edge India Ltd.</p>
+        <p>All rights reserved © 2025</p>
 			</div>
 	);
 };
