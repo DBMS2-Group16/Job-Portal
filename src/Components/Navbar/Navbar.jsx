@@ -24,11 +24,11 @@ const Navbar = () => {
     <div className="container">
       <div className="row v-center">
         <div className="nav-item item-left">
-          <div className="logo">
+          {/* <div className="logo">
             <Link to="/">
               <img src={image} alt="logo" />
             </Link>
-          </div>
+          </div> */}
         </div>
         <div className="nav-item item-center">
           <nav className="menu" style={click ? styleB : styleA}>

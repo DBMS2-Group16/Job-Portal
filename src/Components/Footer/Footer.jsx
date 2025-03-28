@@ -48,8 +48,7 @@ const Footer = () => {
         <div>
           <h3>Team Members</h3>
           <p>Hamza</p>
-          {/* <p>sabka bap</p> */}
-          <p>Ranveer Sahu</p>
+          <p>Ranveer</p>
           <p>Prajwal</p>
           <p>Ruchika</p>
         </div>
