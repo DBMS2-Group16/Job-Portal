@@ -177,7 +177,7 @@ const JobsPage = () => {
           </div>
         </div>
         {/* left container ending */}
-        <div className="cont-2">
+        {/* <div className="cont-2">
           <div className="skill-suggest">
             <div className="naukri-learn">
               <img
@@ -202,7 +202,7 @@ const JobsPage = () => {
             </div>
             <ul className="paid">May include paid service</ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

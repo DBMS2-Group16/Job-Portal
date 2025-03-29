@@ -32,7 +32,7 @@ const Jobs = () => {
       <div className="posting-jobs">
         {/* SECTION1 */}
         <div className="section-1">
-          <div className="manage-jobs">
+          {/* <div className="manage-jobs">
             <div className="cyber">
               <img
                 src="https://images.squarespace-cdn.com/content/v1/576a6006f5e23175ba4e41d8/1595066134418-O7DO7A6F7FZATW78PAI4/Cyber+Security+Boot+Camp?format=500w"
@@ -55,7 +55,7 @@ const Jobs = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
           <h2 className="total-jobs">
             {Data.length} Jobs based on Your Desired Preferences
           </h2>
@@ -104,7 +104,7 @@ const Jobs = () => {
           })}
         </div>
         {/* SECTION2 */}
-        <div className="section-2">
+        {/* <div className="section-2">
           <div className="job-criteria">
             <div className="add-prefer">
               <h2>
@@ -133,7 +133,7 @@ const Jobs = () => {
               </span>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* SECTION2 */}
       </div>
     </div>
