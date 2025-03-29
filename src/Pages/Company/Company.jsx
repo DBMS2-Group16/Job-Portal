@@ -28,9 +28,9 @@ const Company = () => {
       <div className="topHire">
         <b>Top companies hiring now</b>
       </div>
-      <div className="comp_slider">
+      {/* <div className="comp_slider">
         <CompSlider />
-      </div>
+      </div> */}
       <div className="company_main">
         <div className="comp_filters">
           <div className="comp_div">
@@ -63,7 +63,7 @@ const Company = () => {
             </div>
           </div>
           <hr />
-          <div className="cat_checkbox">
+          {/* <div className="cat_checkbox">
             <p>Industry</p>
             <div>
               <CheckboxGroup colorScheme="orange" defaultValue={[]}>
@@ -77,7 +77,7 @@ const Company = () => {
                 </Stack>
               </CheckboxGroup>
             </div>
-          </div>
+          </div> */}
           <hr />
           {/* <div className="cat_checkbox">
             <p>Comapany nature</p>
@@ -96,10 +96,7 @@ const Company = () => {
         </div>
 
         <div className="comp_showlist">
-          <div className="comp_div">
-            <ImOffice fontSize="20px" />
-            <b>Showing 2000 companies</b>
-          </div>
+         
           <div className="companies_list">
             {companyList?.map((ele) => {
               return <ComapnyCard key={ele.id} {...ele} />;
@@ -109,12 +106,12 @@ const Company = () => {
       </div>
 
       {/* Top companies hiring in INDIA */}
-      <div className="bottom_hire">
-        <b>Top companies hiring in India</b>
-        <div className="bottom_hire_tabs">
-          <BottomHire />
-        </div>
-      </div>
+        {/* <div className="bottom_hire">
+          <b>Top companies hiring in India</b>
+          <div className="bottom_hire_tabs">
+            <BottomHire />
+          </div>
+        </div> */}
     </div>
   );
 };

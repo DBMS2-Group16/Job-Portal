@@ -2,12 +2,14 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   padding: 100px 100px;
-  justify-content: space-between;
+  justify-content: center;
+  margin-bottom: 20%;
 }
 
 .loginPageDivs {
   display: flex;
   padding-top: 3rem;
+  margin-left: 35%;
 }
 
 .loginPageBox {
@@ -35,6 +37,8 @@
   margin-left: 3px;
   padding: 30px;
   height: fit-content;
+  display: flex;
+  justify-content: center;
 }
 
 .GoogleDividerORLogin {

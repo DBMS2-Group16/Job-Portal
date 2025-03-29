@@ -10,7 +10,7 @@ const LoginPage = () => {
   return (
     <div>
       <div className={style.loginPageDivs}>
-        <Box className={style.loginPageBox}>
+        {/* <Box className={style.loginPageBox}>
           <div>
             <Heading size="md" py="2">
               New to Job Portal?
@@ -45,7 +45,7 @@ const LoginPage = () => {
               alt="loginImage"
             />
           </div>
-        </Box>
+        </Box> */}
 
         <Box className={style.loginPageBoxForm}>
           <LoginForm />

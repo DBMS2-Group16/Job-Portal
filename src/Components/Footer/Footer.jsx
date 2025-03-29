@@ -12,8 +12,8 @@ const Footer = () => {
   return (
     <div className="footer">
       <div>
-        <div>
-          {/* <img src={image} alt="logo" className="footerLogo" /> */}
+        {/* <div>
+          <img src={image} alt="logo" className="footerLogo" />
           <h3>Connect with us</h3>
           <span className="footerIcons">
             <AiFillFacebook />
@@ -21,14 +21,14 @@ const Footer = () => {
             <AiOutlineTwitter />
             <AiFillLinkedin />
           </span>
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
           <h3>Useful Links</h3>
           <p>Home</p>
           <p>Jobs</p>
           <p>Companies</p>
           <p>Profile</p>
-          <p>Admin</p>
+         
         </div>
         <div>
           <h3>Need help?</h3>
@@ -36,8 +36,8 @@ const Footer = () => {
           <p>Help center</p>
           <p>Summons/Notices</p>
           <p>Grievances</p>
-          <p>Report issue</p>
-        </div>
+         
+        </div> */}
         {/* <div>
           <h3>Our Policies</h3>
           <p>Career</p>
@@ -45,9 +45,10 @@ const Footer = () => {
           <p>Trust & safety</p>
           <p>Terms and Conditions</p>
         </div> */}
-        <div>
+        <div className="hey">
           <h3>Team Members</h3>
           <p>Hamza</p>
+          {/* <p>sabka bap</p> */}
           <p>Ranveer</p>
           <p>Prajwal</p>
           <p>Ruchika</p>
