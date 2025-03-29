@@ -132,19 +132,7 @@ const LoginForm = () => {
             </Button>
           </div>
 
-          {/* <div className={style.googleDividerDiv}>
-            <Divider />
-            <div className={style.GoogleDividerORLogin}>OR</div>
-            <Button
-              className={style.GoogleButton}
-              leftIcon={<FcGoogle />}
-              colorScheme="blue"
-              variant="outline"
-              borderRadius="20px"
-            >
-              Sign in with Google
-            </Button>
-          </div> */}
+       
         </FormControl>
       </form>
     </div>

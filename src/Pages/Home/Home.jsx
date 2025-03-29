@@ -28,15 +28,15 @@ const Home = () => {
           <div className="homeMiddle">
             <Link to="/jobs">
               <div className="homeRecJob">
-                <h2>Urgent Hiring!!! BPO/KPO-Voice and Non Voice Executive</h2>
+                <h2>Urgent Hiring!!! ABC and Non Voice Exe</h2>
                 <p>Pyramid Jobs</p>
-                <p>₹ 1,75,000 - 2,50,000 P.A.</p>
+                <p>₹ 11,75,000 - 99,99,999 P.A.</p>
               </div>
             </Link>
             <Link to="/jobs">
               <div className="homeRecJob">
                 <h2>Sales Executive</h2>
-                <p>Tushar Hr Consultancy</p>
+                <p>Sahu Hr Consultancy</p>
                 <p>Not Disclosed</p>
               </div>
             </Link>

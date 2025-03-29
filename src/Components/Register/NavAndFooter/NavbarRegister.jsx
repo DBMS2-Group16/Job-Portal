@@ -9,11 +9,7 @@ const NavbarRegister = () => {
 		<div className={style.navbarMainDiv}>
 			<Flex className={style.navbarBox}>
 				<Box p="4">
-					<Image
-						src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png"
-						alt="naukriLogo"
-						onClick={() => navigate("/")}
-					/>
+				
 				</Box>
 				<Spacer />
 				<Box p="4" className={style.alreadyRegistered}>

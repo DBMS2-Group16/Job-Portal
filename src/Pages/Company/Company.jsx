@@ -28,9 +28,7 @@ const Company = () => {
       <div className="topHire">
         <b>Top companies hiring now</b>
       </div>
-      {/* <div className="comp_slider">
-        <CompSlider />
-      </div> */}
+      
       <div className="company_main">
         <div className="comp_filters">
           <div className="comp_div">
@@ -63,36 +61,7 @@ const Company = () => {
             </div>
           </div>
           <hr />
-          {/* <div className="cat_checkbox">
-            <p>Industry</p>
-            <div>
-              <CheckboxGroup colorScheme="orange" defaultValue={[]}>
-                <Stack spacing={[1, 2]} onChange={handleChange}>
-                  <Checkbox name="comp_type" value="Public">
-                    Public
-                  </Checkbox>
-                  <Checkbox name="comp_type" value="Private">
-                    Private
-                  </Checkbox>
-                </Stack>
-              </CheckboxGroup>
-            </div>
-          </div> */}
-          <hr />
-          {/* <div className="cat_checkbox">
-            <p>Comapany nature</p>
-            <div>
-              <CheckboxGroup colorScheme="orange" defaultValue={[]}>
-                <Stack spacing={[1, 2]} onChange={handleChange}>
-                  <Checkbox value="FMCG & Retail">FMCG & Retail</Checkbox>
-                  <Checkbox value="B2C">B2C</Checkbox>
-                  <Checkbox value="Fortune 500">Fortune 500</Checkbox>
-                  <Checkbox value="Hospitality">Hospitality</Checkbox>
-                </Stack>
-              </CheckboxGroup>
-            </div>
-          </div>
-          <hr /> */}
+   
         </div>
 
         <div className="comp_showlist">
@@ -104,14 +73,6 @@ const Company = () => {
           </div>
         </div>
       </div>
-
-      {/* Top companies hiring in INDIA */}
-        {/* <div className="bottom_hire">
-          <b>Top companies hiring in India</b>
-          <div className="bottom_hire_tabs">
-            <BottomHire />
-          </div>
-        </div> */}
     </div>
   );
 };

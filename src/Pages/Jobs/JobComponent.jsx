@@ -28,17 +28,6 @@ const JobComponent = (item) => {
             <HiOutlineDocumentText className="loc-icon" /> {item.candidate}
           </div>
 
-          {/* <div className="keyskill">
-            {item.keySkills.map((elem, index) => {
-              if (index < 2) {
-                return (
-                  <span key={index} className="job-skills">
-                    {elem}
-                  </span>
-                );
-              }
-            })}
-          </div> */}
           <div className="time-btn">
             <Button size="xs">
               <TfiTimer />

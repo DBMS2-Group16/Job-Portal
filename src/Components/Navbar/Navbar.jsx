@@ -8,7 +8,7 @@ import { RiAdminLine } from "react-icons/ri";
 import { CgProfile } from "react-icons/cg";
 import { useDispatch, useSelector } from "react-redux";
 import { logoutUser } from "../../Redux/Auth/actionsRegister";
-import image from "./logo.png";
+
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => {

@@ -193,19 +193,7 @@ const AdminJobs = () => {
                     <Input mb="15px" type="text" name="roleCategory" />
                   </Box>
                 </Flex>
-                {/* <Flex
-                  gap={{ base: 2, md: 10 }}
-                  direction={{ base: "column", md: "row" }}
-                >
-                  <Box w={{ base: "100%", md: "50%" }}>
-                    <FormLabel>Education</FormLabel>
-                    <Input mb="15px" type="text" name="education" />
-                  </Box>
-                  <Box w={{ base: "100%", md: "50%" }}>
-                    <FormLabel>Role Category</FormLabel>
-                    <Input mb="15px" type="text" name="roleCategory" />
-                  </Box>
-                </Flex> */}
+               
 
                 <br />
                 <Flex justifyContent="center" gap={2}>
@@ -220,36 +208,7 @@ const AdminJobs = () => {
               </Box>
             </FormControl>
           </TabPanel>
-          {/* <TabPanel>
-            <TableContainer>
-              <Table variant="striped" colorScheme="teal">
-                <Thead>
-                  <Tr>
-                    <Th>ID</Th>
-                    <Th>Title</Th>
-                    <Th>Edit Job</Th>
-                    <Th isNumeric>Delete Job</Th>
-                  </Tr>
-                </Thead>
-                <Tbody>
-                  <Tr>
-                    <Td>1</Td>
-                    <Td>Web Developer</Td>
-                    <Td>Edit</Td>
-                    <Td isNumeric>Delete</Td>
-                  </Tr>
-                </Tbody>
-                <Tfoot>
-                  <Tr>
-                    <Th>Total Jobs</Th>
-                    <Th></Th>
-                    <Th></Th>
-                    <Th isNumeric>5</Th>
-                  </Tr>
-                </Tfoot>
-              </Table>
-            </TableContainer>
-          </TabPanel> */}
+      
         </TabPanels>
       </Tabs>
     </div>

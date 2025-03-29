@@ -176,33 +176,6 @@ const JobsPage = () => {
             </div>
           </div>
         </div>
-        {/* left container ending */}
-        {/* <div className="cont-2">
-          <div className="skill-suggest">
-            <div className="naukri-learn">
-              <img
-                src="https://static.naukimg.com/s/7/1290/i/elearning-logo.ff8a74da.svg"
-                width="100%"
-                alt="logo"
-              />
-            </div>
-            <div className="course-suggest">
-              <h2>Suggested Skills for you</h2>
-              <ul>Get Better Jobs & Higher Salaries.Suggested Course</ul>
-              <h3>Administration</h3>
-              <ul>1040+ Courses from top platforms</ul>
-            </div>
-            <div className="data-analyst">
-              <h3>Data Analysis</h3>
-              <ul>8540+ Courses and certifications</ul>
-            </div>
-            <div className="data-analyst">
-              <h3>General Management</h3>
-              <ul>9200+ top rated corses for career growth</ul>
-            </div>
-            <ul className="paid">May include paid service</ul>
-          </div>
-        </div> */}
       </div>
     </div>
   );
