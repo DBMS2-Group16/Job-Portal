@@ -94,7 +94,7 @@ const RegisterPage = () => {
       <NavbarRegister />
 
       <div className={style.contentRegister}>
-        <LeftPane />
+        {/* <LeftPane /> */}
         <div>
           <div className={style.rightRegister}>
             <Box className={style.rightRegisterBox}>
@@ -127,9 +127,9 @@ const RegisterPage = () => {
                       onChange={handleRegChange}
                       isRequired
                     />
-                    <FormHelperText>
+                    {/* <FormHelperText>
                       We'll send you relevant jobs in your mail
-                    </FormHelperText>
+                    </FormHelperText> */}
                   </div>
                   <div>
                     <FormLabel htmlFor="password">Password</FormLabel>
@@ -142,9 +142,9 @@ const RegisterPage = () => {
                       onChange={handleRegChange}
                       isRequired
                     />
-                    <FormHelperText>
+                    {/* <FormHelperText>
                       Minimum 6 characters required
-                    </FormHelperText>
+                    </FormHelperText> */}
                   </div>
                   <div>
                     <FormLabel htmlFor="mobile">Mobile Number</FormLabel>
@@ -159,15 +159,15 @@ const RegisterPage = () => {
                         isRequired
                       />
                     </InputGroup>
-                    <FormHelperText>
+                    {/* <FormHelperText>
                       Recruiters will call you on this number
-                    </FormHelperText>
+                    </FormHelperText> */}
                   </div>
                   <div>
-                    <FormLabel htmlFor="resume">Resume</FormLabel>
+                    {/* <FormLabel htmlFor="resume">Resume</FormLabel> */}
 
                     <div className={style.rightRegisterBoxInputDiv}>
-                      <label
+                      {/* <label
                         htmlFor="files"
                         className={style.rightRegisterBoxInputBtn}
                       >
@@ -177,18 +177,18 @@ const RegisterPage = () => {
                         id="files"
                         type="file"
                         className={style.rightRegisterBoxInput}
-                      />
+                      /> */}
                       {/* </div> */}
-                      <div>
+                      {/* <div>
                         <Text fontSize="xs" p="2" color="#8d8aad">
                           DOC, DOCx, PDF, RTF | Max: 2 MB
                         </Text>
-                      </div>
+                      </div> */}
                     </div>
-                    <FormHelperText>
-                      Recruiters give first preference to candidates who have a
-                      resume
-                    </FormHelperText>
+                      {/* <FormHelperText>
+                        Recruiters give first preference to candidates who have a
+                        resume
+                      </FormHelperText> */}
                   </div>
                   <div>
                     <Button colorScheme="blue" borderRadius="20" type="submit">
@@ -211,7 +211,7 @@ const RegisterPage = () => {
               </form>
             </Box>
           </div>
-          <FooterRegister />
+          {/* <FooterRegister /> */}
         </div>
       </div>
     </>

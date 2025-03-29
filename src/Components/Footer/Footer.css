@@ -61,3 +61,7 @@
     margin: 3px 0;
   }
 }
+.hey{
+  display: flex;
+  gap: 200px;
+}
